@@ -22,11 +22,13 @@ public class User {
 	
 	public User() {
 	}
+	
 	public User(String title, String description, boolean published) {
 		this.title = title;
 		this.description = description;
 		this.published = published;
 	}
+	
 	public long getId() {
 		return id;
 	}
